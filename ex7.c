@@ -1,6 +1,9 @@
 #include <stdio.h>
 
+<<<<<<< HEAD
 int main(int argc, char *argv[])
+=======
+int maink(int argc, char *argv[])
 {
 	int bugs = 100;
 	double bug_rate = 1.2;
@@ -22,4 +25,5 @@ int main(int argc, char *argv[])
 	printf("Which means you should care %d%%.\n", care_percentage);
 
 	return 0;
+
 }
