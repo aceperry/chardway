@@ -1,6 +1,9 @@
 CFLAGS=-Wall -g
 
-all:  ex5
+SRC = $(wildcard *.c)
+
+new: $SRC
+	gcc -o $@ $^ $(CFLAGS)
 
 clean:
-	rm -f ex5
+	rm -f *.o
